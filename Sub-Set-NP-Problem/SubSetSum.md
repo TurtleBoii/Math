@@ -35,7 +35,9 @@ We've now ruled out a lot of cases, for every value T. Although this will change
 ------------------------------------------------------
 This second check will verify that the value T could be achieved, by checking wether the difference between the sum of the positive and negative elements is lower than T.
 
-> If $posSum+negSum \leq T$, then there may be a subset of elements that sum up to T, since we can compensate the positive sum with the negative sum. If the condition isn't met, we can't discard the existence of subsets in C that comply with the premise, but we will use this on step three in a particular way.
+> If $posSum+negSum \leq T$, then there may be a subset of elements that sum up to T, since we can compensate the positive sum with the negative sum. 
+
+If the condition isn't met, we can't discard the existence of subsets in C that comply with the premise, but we will use this on step three in a particular way.
 
 ### Step three - Ruling out useless values.
 ------------------------------------------------------
